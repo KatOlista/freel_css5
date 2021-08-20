@@ -74,7 +74,9 @@ h6 {
 }
 /*--------------------*/
 body {
-	background: url("../img/Ellipse 1 copy@1X.png") center 106px / 1190px 1064px no-repeat, url("../img/Layer 0@1X.png"),
+	max-width: 1440px;
+	max-height: 1700px;
+	background: url("../img/Ellipse 1 copy@1X.png") 0 106px / 1190px 1064px no-repeat, url("../img/Layer 0@1X.png"),
 		rgba(232, 232, 232, 0.8);
 }
 h1 {
@@ -90,7 +92,7 @@ ul {
 	margin-top: 64px;
 }
 button {
-	background: url("../img/Shape 2@1X.png") 151px 0 no-repeat, url("../img/Rounded Rectangle 1@1X.png");
+	background: url("../img/Shape 2@1X.png") 151px center no-repeat, url("../img/Rounded Rectangle 1@1X.png");
 	width: 199px;
 	height: 44px;
 	box-shadow: 0px 6px 40px 0px rgba(128, 183, 179, 0.54);
@@ -114,6 +116,7 @@ span {
 	max-height: 1700px;
 	background-color: rgba(232, 232, 232, 0.8);
 	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	padding-top: 166px;
 }
 .page__block {
 	width: 1190px;
@@ -124,7 +127,7 @@ span {
 .block__subtitle {
 	height: 10px;
 	width: 67px;
-	margin: 166px auto 0 auto;
+	margin: 0 auto;
 	box-sizing: border-box;
 	opacity: 0.6;
 	font-family: Arial;
